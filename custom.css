@@ -1,0 +1,43 @@
+/* Navbar styles */
+.navbar {
+    background-color: #007bff; /* Change to your preferred color */
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+/* Hero section styles */
+.jumbotron {
+    background: url('background-image.jpg') center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Service section styles */
+.service-card {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Contact form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Change to your preferred color */
+    border: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
