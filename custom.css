@@ -1,4 +1,6 @@
 /* Navbar styles */
+source: docs
+destination: docs/_site
 .navbar {
     background-color: #007bff; /* Change to your preferred color */
     color: #fff;
