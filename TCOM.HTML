@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tcom Computer Repair</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Tcom Computer Repair</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="jumbotron">
+    <h1 class="display-4">Your Trusted Computer Repair Service</h1>
+    <p class="lead">We offer comprehensive computer solutions</p>
+</div>
+
+<!-- Services Section -->
+<section id="services" class="container my-5">
+    <h2 class="text-center">Our Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Virus and Malware Removal</h3>
+            <p>We'll clean your computer from viruses and malware to ensure its security.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Hardware and Software Troubleshooting</h3>
+            <p>We diagnose and fix hardware and software issues to get your computer running smoothly.</p>
+        </div>
+        <div class="col-md-4">
+            <h3>System Optimization</h3>
+            <p>We optimize your system for better performance and speed.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Data Recovery and Backup Solutions</h3>
+            <p>We help you recover lost data and set up secure backup solutions.</p>
+        </div>
+        <div class="col-md-6">
+            <h3>Upgrades and Custom Builds</h3>
+            <p>We offer hardware upgrades and custom-built computers tailored to your needs.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="text-center">Have questions or need assistance? Reach out to us!</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="contact.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3">
+    <p>&copy; 2023 Tcom Computer Repair</p>
+</footer>
+
+</body>
+</html>
